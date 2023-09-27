@@ -28,12 +28,11 @@ int main(void) {
    if (teve_jogos_olimpicos && teve_copa_do_mundo) {
        printf("Os Jogos Olimpicos de Verao e a Copa do Mundo de Futebol ocorreram no ano de %d.\n", ano);
    } else if (teve_jogos_olimpicos) {
-       printf("Os Jogos Olimpicoss de Verao ocorreram no ano de %d.\n", ano);
+       printf("Os Jogos Olimpicos de Verao ocorreram no ano de %d.\n", ano);
    } else if (teve_copa_do_mundo) {
        printf("A Copa do Mundo de Futebol ocorreu no ano de %d.\n", ano);
    } else {
        printf("Nao houve Jogos Olimpicos de Verao ou Copa do Mundo no ano de %d.\n", ano);
-       //testando
    }
  
    return 0;
